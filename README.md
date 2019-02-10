@@ -9,3 +9,8 @@
 - run npm start
 
 #### Deploying to Firebase
+- cd to 'Repertoire-React' and run the following:
+```
+firebase init
+
+```
