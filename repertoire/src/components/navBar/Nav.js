@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink, withRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import "../../sass/nav.scss";
+import "../../scss/_nav.scss";
 import profpic from "../../img/profpicedit.jpg";
 class Nav extends Component {
   render() {

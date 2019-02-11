@@ -1,3 +1,6 @@
+@import "variables.scss";
+@import "_bootstrap-overrides.scss";
+
 #sideNav {
   .navbar-nav .nav-item .nav-link {
     font-weight: 800;
