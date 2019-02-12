@@ -19,6 +19,7 @@ import Geek from "../../img/geekquad.png"
 import Source from "../../img/thesource.png"
 import Rye from "../../img/ryerson.png"
 import Valx from "../../img/valxlogo.png"
+import Jonar from "../../img/jonar.jpg"
 //inline styling
 const imgStyle = {
   width: '300px'
@@ -32,6 +33,7 @@ class MainPage extends Component {
     return (
 
       <div id='page-top'>
+
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
@@ -42,7 +44,7 @@ class MainPage extends Component {
           <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
             <div class="my-auto">
               <h1 class="mb-0">Marcel-Pierre
-          <span class="text-primary">Samuels</span>
+          <p class=" text-primary">Samuels</p>
               </h1>
               <div class="subheading mb-5">
                 <a href="mailto:name@email.com">marcelpierre.s@gmail.com</a>
@@ -50,10 +52,10 @@ class MainPage extends Component {
               <p class="lead mb-5"> Computer Science Graduate with a passion for Software Development as well as Front-End
                 Development
           using Bootstrap, React Library and Angular Framework. I am a self-motivated <b>leader</b> with excellent <b>communication
-                                                                                                                                                                                                      skills
+                                                                                                                                                                                                                                                                  skills
           </b> who is attentive to detail and works well in a team setting. Adept at learning new concepts,
-                                                                                                                                                                                                    documentation,
-                                                                                                                                                                                                    and time management skills.
+                                                                                                                                                                                                                                                                documentation,
+                                                                                                                                                                                                                                                                and time management skills.
         </p>
               <div class="social-icons">
                 <a href="https://www.linkedin.com/in/marcel-pierre-samuels-332525163">
@@ -89,10 +91,10 @@ class MainPage extends Component {
                 <p>• Partnered with 2 others to design, develop and test Art Gallery Website using HTML5, CSS3, JavaScript,
                   PHP,
               and MySQL <br /> • Developed MySQL Database and used PHP to access and modify queries <br /> • Utilized
-                                                                                                                          HTML5,
+                                                                                                                                                                  HTML5,
               CSS3 and JavaScript to design and style <br /> • Documented design, layout, development and structure of
-                                                                                                                                website
-                                                                                                                                and database
+                                                                                                                                                                        website
+                                                                                                                                                                        and database
             </p>
               </div>
               <div class="resume-date text-md-right">
@@ -107,10 +109,10 @@ class MainPage extends Component {
                 <p>• Partnered to develop, meet requirements and deliver Online Registering System <br /> • Utilized the
                   Software
               Development Waterfall Model<br /> • Determined system functional and non-functional requirements<br /> •
-                                                                                                                                        Produced
+                                                                                                                                                                                Produced
               documentation using Marketecture Document, Activity, Component, Data Flow and Use Case Diagrams<br /> •
-                                                                                                                                            Created
-                                                                                                                                            Data dictionary, Sequence Diagram and Requirement Prioritization artifacts
+                                                                                                                                                                                    Created
+                                                                                                                                                                                    Data dictionary, Sequence Diagram and Requirement Prioritization artifacts
             </p>
               </div>
               <div class="resume-date text-md-right">
@@ -125,7 +127,7 @@ class MainPage extends Component {
                 <p>• Collaborated and led 2 others to develop Content Distribution Network using Java <br /> • Created 5
                   dummy
               servers using TCP and UDP connections <br /> • System supported Client server interacting with other
-                                                                                                                                                    servers
+                                                                                                                                                                                            servers
               to retrieve relevant content and download to users <br />
                 </p>
               </div>
@@ -148,6 +150,7 @@ class MainPage extends Component {
               <div class="resume-content mr-auto">
                 <h3 class="mb-0">Ryerson University</h3>
                 <div class="subheading mb-3">Bachelor of Science, Computer Science Honors Degree </div>
+                <div class="subheading mb-3">Minor in, Geography </div>
               </div>
               <div class="resume-date text-md-right">
                 <span class="text-primary">September 2014 - October 2018</span> <br />
@@ -167,7 +170,7 @@ class MainPage extends Component {
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
               <div class="resume-content mr-auto">
                 <h3 class="mb-0">VALX – Front-End Developer</h3>
-                <div class="subheading mb-3">Startup </div>
+                <div class="subheading mb-3"> Ryerson Student Startup </div>
                 <div class="resume-content mr-auto">
                   <p> • Designed and programmed Valx website<br />
                     • Advertised Startup
@@ -182,6 +185,26 @@ class MainPage extends Component {
               </div>
             </div>
 
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Jonar – Software Developer Intern</h3>
+                <div class="subheading mb-3">55 Rue de Louvain O Suite 303, Montreal, QC H2N 1A4 </div>
+                <div class="resume-content mr-auto">
+                  <p> • Fixed bugs within the company's product<br />
+                    • Aided in the development of an Amazon Integration
+              </p>
+                </div>
+              </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary"> November 2018 - February 2018</span>
+                <div class="mt-3">
+                  <img class="img-fluid  mx-auto mb-0" style={imgStyle} src={Jonar} alt="" />
+                </div>
+              </div>
+            </div>
+
+
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
               <div class="resume-content mr-auto">
                 <h3 class="mb-0">Geek Squad – Counter Intelligence Agent</h3>
@@ -189,13 +212,13 @@ class MainPage extends Component {
                 <div class="resume-content mr-auto">
                   <p> • Diagnosed hardware and software issues with Laptops, Desktops and Tablets <br /> • Repaired Desktops
                 and Laptops <br /> • Setup Desktops and Laptops <br /> • Provided customer service <br /> • Listened to
-                                                                                customers and matched their requirements to supported products
+                                                                                                                        customers and matched their requirements to supported products
               </p>
                 </div>
               </div>
 
               <div class="resume-date text-md-right">
-                <span class="text-primary">September 2018 - Present</span>
+                <span class="text-primary">September 2018 - November 2018</span>
                 <div class="mt-3">
                   <img class="img-fluid  mx-auto mb-0" style={imgStyle} src={Geek} alt="" />
                 </div>
@@ -328,9 +351,11 @@ class MainPage extends Component {
             <h2 class="mb-5">Interests</h2>
             <p>Aside from Software Development and Web Design, I enjoy learning about new mobile and computer technology.
               In
-              addition, I enjoy photography, photo-editing and video-editing. Other than technology, I watch anime and
-              science
-          fiction, with the occasional nature and space documentaries.</p>
+              addition, I enjoy photography, photo-editing and video-editing. Other than technology, I enjoy learning
+
+              about social and physical geography as well as watching anime and science fiction, with the occasional
+
+              nature and space documentaries.</p>
 
           </div>
         </section>
