@@ -1,4 +1,5 @@
 import jQuery from '../../node_modules/jquery/dist/jquery.js';
+import "../../node_modules/popper.js/dist/popper.js";
 (function ($) {
     "use strict"; // Start of use strict
 
@@ -22,8 +23,8 @@ import jQuery from '../../node_modules/jquery/dist/jquery.js';
     });
 
     // Activate scrollspy to add active class to navbar items on scroll
-    //$('body').scrollspy({
-    //    target: '#sideNav'
-    // });
+    $('body').scrollspy({
+        target: '#sideNav'
+    });
 
 })(jQuery); // End of use strict
