@@ -4,7 +4,7 @@
   }
   
   .text-primary {
-    color: $primary !important;
+    color: $blue !important;
   }
   
   a {
@@ -12,6 +12,6 @@
     &:hover,
     &:focus,
     &:active {
-      color: darken($primary, 15%);
+      color: darken($white, 15%);
     }
   }

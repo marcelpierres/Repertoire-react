@@ -9,7 +9,7 @@
   }
   .navbar-toggler {
     &:focus {
-      outline-color: lighten($primary, 15%);
+      outline-color: lighten($white, 15%);
     }
   }
 }
@@ -55,6 +55,14 @@
           }
         }
       }
+    }
+  }
+  a {
+    color: $white;
+    &:hover,
+    &:focus,
+    &:active {
+      color: lighten($white, 15%);
     }
   }
 }
