@@ -52,10 +52,10 @@ class MainPage extends Component {
               <p class="lead mb-5"> Computer Science Graduate with a passion for Software Development as well as Front-End
                 Development
           using Bootstrap, React Library and Angular Framework. I am a self-motivated <b>leader</b> with excellent <b>communication
-                                                                                                                                                                                                                                                                  skills
+                                                                                                                                                                                                                                                                              skills
           </b> who is attentive to detail and works well in a team setting. Adept at learning new concepts,
-                                                                                                                                                                                                                                                                documentation,
-                                                                                                                                                                                                                                                                and time management skills.
+                                                                                                                                                                                                                                                                            documentation,
+                                                                                                                                                                                                                                                                            and time management skills.
         </p>
               <div class="social-icons">
                 <a href="https://www.linkedin.com/in/marcel-pierre-samuels-332525163">
@@ -91,10 +91,10 @@ class MainPage extends Component {
                 <p>• Partnered with 2 others to design, develop and test Art Gallery Website using HTML5, CSS3, JavaScript,
                   PHP,
               and MySQL <br /> • Developed MySQL Database and used PHP to access and modify queries <br /> • Utilized
-                                                                                                                                                                  HTML5,
+                                                                                                                                                                          HTML5,
               CSS3 and JavaScript to design and style <br /> • Documented design, layout, development and structure of
-                                                                                                                                                                        website
-                                                                                                                                                                        and database
+                                                                                                                                                                                website
+                                                                                                                                                                                and database
             </p>
               </div>
               <div class="resume-date text-md-right">
@@ -109,10 +109,10 @@ class MainPage extends Component {
                 <p>• Partnered to develop, meet requirements and deliver Online Registering System <br /> • Utilized the
                   Software
               Development Waterfall Model<br /> • Determined system functional and non-functional requirements<br /> •
-                                                                                                                                                                                Produced
+                                                                                                                                                                                        Produced
               documentation using Marketecture Document, Activity, Component, Data Flow and Use Case Diagrams<br /> •
-                                                                                                                                                                                    Created
-                                                                                                                                                                                    Data dictionary, Sequence Diagram and Requirement Prioritization artifacts
+                                                                                                                                                                                            Created
+                                                                                                                                                                                            Data dictionary, Sequence Diagram and Requirement Prioritization artifacts
             </p>
               </div>
               <div class="resume-date text-md-right">
@@ -127,7 +127,7 @@ class MainPage extends Component {
                 <p>• Collaborated and led 2 others to develop Content Distribution Network using Java <br /> • Created 5
                   dummy
               servers using TCP and UDP connections <br /> • System supported Client server interacting with other
-                                                                                                                                                                                            servers
+                                                                                                                                                                                                    servers
               to retrieve relevant content and download to users <br />
                 </p>
               </div>
@@ -173,6 +173,9 @@ class MainPage extends Component {
                 <div class="subheading mb-3"> Ryerson Student Startup </div>
                 <div class="resume-content mr-auto">
                   <p> • Designed and programmed Valx website<br />
+                    • Fixed bugs and plans for future functionality<br />
+                    • Utilizes Github and Gitlab to record and plan issues as well as set deadlines<br />
+                    • Manages a team of 2 other developers<br />
                     • Advertised Startup
               </p>
                 </div>
@@ -188,31 +191,12 @@ class MainPage extends Component {
 
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
               <div class="resume-content mr-auto">
-                <h3 class="mb-0">Jonar – Software Developer Intern</h3>
-                <div class="subheading mb-3">55 Rue de Louvain O Suite 303, Montreal, QC H2N 1A4 </div>
-                <div class="resume-content mr-auto">
-                  <p> • Fixed bugs within the company's product<br />
-                    • Aided in the development of an Amazon Integration
-              </p>
-                </div>
-              </div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary"> November 2018 - February 2018</span>
-                <div class="mt-3">
-                  <img class="img-fluid  mx-auto mb-0" style={imgStyle} src={Jonar} alt="" />
-                </div>
-              </div>
-            </div>
-
-
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
                 <h3 class="mb-0">Geek Squad – Counter Intelligence Agent</h3>
                 <div class="subheading mb-3">Best Buy 480 Progress Ave, Scarborough, ON M1P 5J1 </div>
                 <div class="resume-content mr-auto">
                   <p> • Diagnosed hardware and software issues with Laptops, Desktops and Tablets <br /> • Repaired Desktops
                 and Laptops <br /> • Setup Desktops and Laptops <br /> • Provided customer service <br /> • Listened to
-                                                                                                                        customers and matched their requirements to supported products
+                                                                                                                                customers and matched their requirements to supported products
               </p>
                 </div>
               </div>
