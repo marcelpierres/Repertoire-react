@@ -173,6 +173,9 @@ class MainPage extends Component {
                 <div class="subheading mb-3"> Ryerson Student Startup </div>
                 <div class="resume-content mr-auto">
                   <p> • Designed and programmed Valx website<br />
+                  • Fixed bugs and plans for future functionality<br />
+                  • Utilizes Github and Gitlab to record and plan issues as well as set deadlines<br />
+                  • Manages a team of 2 other developers<br />
                     • Advertised Startup
               </p>
                 </div>
@@ -185,24 +188,6 @@ class MainPage extends Component {
               </div>
             </div>
 
-
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">Jonar – Software Developer Intern</h3>
-                <div class="subheading mb-3">55 Rue de Louvain O Suite 303, Montreal, QC H2N 1A4 </div>
-                <div class="resume-content mr-auto">
-                  <p> • Fixed bugs within the company's product<br />
-                    • Aided in the development of an Amazon Integration
-              </p>
-                </div>
-              </div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary"> November 2018 - February 2018</span>
-                <div class="mt-3">
-                  <img class="img-fluid  mx-auto mb-0" style={imgStyle} src={Jonar} alt="" />
-                </div>
-              </div>
-            </div>
 
 
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
