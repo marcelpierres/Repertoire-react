@@ -11,6 +11,7 @@ import "../../../node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js";
 import "../../../node_modules/popper.js/dist/popper.js";
 import "../../js/resume.js";
 import profpic from "../../img/profpicedit.jpg";
+import profpic1 from "../../img/profpic31.jpg";
 class Nav extends Component {
   render() {
     return (
@@ -24,7 +25,7 @@ class Nav extends Component {
             <span class="d-none d-lg-block">
               <img
                 class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                src={profpic}
+                src={profpic1}
                 alt=""
               />
             </span>
@@ -48,25 +49,44 @@ class Nav extends Component {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#experience">Projects</a>
+                <a class="nav-link js-scroll-trigger" href="/#experience">
+                  Projects
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+                <a class="nav-link js-scroll-trigger" href="/#education">
+                  Education
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#workex">Work Experience</a>
+                <a class="nav-link js-scroll-trigger" href="/#cert">
+                  Certifications
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+                <a class="nav-link js-scroll-trigger" href="/#workex">
+                  Work Experience
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#interests">Interests</a>
+                <a class="nav-link js-scroll-trigger" href="/#skills">
+                  Skills
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/#hobbies">Photography</a>
+                <a class="nav-link js-scroll-trigger" href="/#interests">
+                  Interests
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="/chat">Talk To Me</a>
+                <a class="nav-link js-scroll-trigger" href="/#hobbies">
+                  Photography
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/chat">
+                  Talk To Me
+                </a>
               </li>
             </ul>
           </div>
