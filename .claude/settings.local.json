@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run build)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/chat)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/chat/)",
+      "Bash(curl -s \"http://localhost:3000/_next/static/css/app/layout.css\")",
+      "Bash(git add repertoire-next/ .claude/launch.json)",
+      "Bash(git commit:*)",
+      "Bash(git push -u origin claude/silly-austin)",
+      "Bash(gh pr:*)",
+      "Bash(where gh)",
+      "Bash(winget list GitHub.cli)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:linkify-demo.vercel.app)",
+      "Bash(npm run build --prefix /d/Personal-website/Repertoire-react/.claude/worktrees/silly-austin/repertoire-next)"
+    ]
+  }
+}
