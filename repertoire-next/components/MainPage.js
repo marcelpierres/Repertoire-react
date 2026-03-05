@@ -21,12 +21,11 @@ export default function MainPage() {
               </a>
             </div>
             <p className="text-lg font-normal mb-12">
-              Computer Science Graduate with a passion for Software Development,
-              Front-End Development using Bootstrap and the React Library as well
-              as IT Support. I am a self-motivated <b>leader</b> with excellent{' '}
-              <b>communication skills</b> who is attentive to detail and works
-              well in a team setting. Adept at learning new concepts,
-              documentation, and time management skills.
+              Customer Success–driven Senior Technical Analyst with <b>6+ years</b> of experience supporting enterprise clients in SaaS environments. 
+              Proven track record of building trusted advisor relationships, guiding customers through onboarding, adoption, maturity, and expansion. 
+              Skilled in managing escalations, customer product training, and aligning technology solutions with customer goals. 
+              Collaborates cross-functionally with Support, Product, and Engineering teams to drive measurable outcomes, reduce churn, and grow long-term partnerships.
+              I take pride in my ability to empower others through clear guidance and coaching, a strength recognized when I received the Empowerment Quadient Hero Award in 2024 for my contributions at Quadient.
             </p>
             <div className="social-icons">
               <a href="https://www.linkedin.com/in/marcel-pierre-samuels-332525163">
@@ -48,129 +47,27 @@ export default function MainPage() {
 
       <hr className="m-0" />
 
-      {/* Projects */}
+      {/* Awards */}
       <section className="resume-section px-3 lg:px-12" id="experience">
         <div className="my-auto">
-          <h2 className="mb-12">Projects</h2>
+          <h2 className="mb-12">Awards</h2>
 
           <div className="resume-item flex flex-col md:flex-row mb-12">
             <div className="resume-content mr-auto">
               <h3 className="mb-0">
-                Art Gallery Web-Site (3 hr per day / 2 months / worth 30%)
+                Empowerment Quadient Hero Award
               </h3>
-              <div className="subheading mb-4">CPS630 Web Applications</div>
+              <div className="subheading mb-4">Won Gold for the Quadient Hero Empowerment Category</div>
               <p>
-                • Partnered with 2 others to design, develop and test Art Gallery
-                Website using HTML5, CSS3, JavaScript, PHP, and MySQL <br />
-                • Developed MySQL Database and used PHP to access and modify
-                queries <br />
-                • Utilized HTML5, CSS3 and JavaScript to design and style <br />
-                • Documented design, layout, development and structure of website
-                and database
+                This is awarded to a creative and open-minded collegue who embraced and drove change within Quadient 2024. 
+                They empowered others to elevate their learning and succeed. They approached their own role with knowledge, trust and confidence.
               </p>
             </div>
             <div className="resume-date md:text-right mt-2 md:mt-0">
-              <span className="text-primary">February 2018 - April 2018</span>
+              <span className="text-primary">April 2025</span>
             </div>
           </div>
 
-          <div className="resume-item flex flex-col md:flex-row mb-12">
-            <div className="resume-content mr-auto">
-              <h3 className="mb-0">
-                Online Registration System (1.5 hr per day / 2 months / worth 30%)
-              </h3>
-              <div className="subheading mb-4">CPS731 Software Engineering I</div>
-              <p>
-                • Partnered to develop, meet requirements and deliver Online
-                Registering System <br />
-                • Utilized the Software Development Waterfall Model <br />
-                • Determined system functional and non-functional requirements{' '}
-                <br />
-                • Produced documentation using Marketecture Document, Activity,
-                Component, Data Flow and Use Case Diagrams <br />
-                • Created Data dictionary, Sequence Diagram and Requirement
-                Prioritization artifacts
-              </p>
-            </div>
-            <div className="resume-date md:text-right mt-2 md:mt-0">
-              <span className="text-primary">October 2017 - December 2017</span>
-            </div>
-          </div>
-
-          <div className="resume-item flex flex-col md:flex-row mb-12">
-            <div className="resume-content mr-auto">
-              <h3 className="mb-0">
-                Content Distribution Network (CDN) (4hr per day / 2 months / worth 20%)
-              </h3>
-              <div className="subheading mb-4">CPS706 Computer Networks I</div>
-              <p>
-                • Collaborated and led 2 others to develop Content Distribution
-                Network using Java <br />
-                • Created 5 dummy servers using TCP and UDP connections <br />
-                • System supported Client server interacting with other servers to
-                retrieve relevant content and download to users
-              </p>
-            </div>
-            <div className="resume-date md:text-right mt-2 md:mt-0">
-              <span className="text-primary">October 2016 - December 2016</span>
-            </div>
-          </div>
-
-          <div className="resume-item flex flex-col md:flex-row mb-12">
-            <div className="resume-content mr-auto">
-              <h3 className="mb-0">React Native Press Mania Application</h3>
-              <div className="subheading mb-4">Personal React Native Project</div>
-              <p>
-                • Created a simple button press Android Application using React
-                Native and Redux <br />
-                • Redux was used to manage state on the users&apos; device <br />
-                • React Native and different npm packages were used to create the
-                UI
-              </p>
-            </div>
-            <div className="resume-date md:text-right mt-2 md:mt-0">
-              <span className="text-primary">March 2019 - Present</span>
-            </div>
-          </div>
-
-          <div className="resume-item flex flex-col md:flex-row mb-12">
-            <div className="resume-content mr-auto">
-              <h3 className="mb-0">React Chat Web Application</h3>
-              <div className="subheading mb-4">Personal React Project</div>
-              <p>
-                • Implemented a Full Stack Chat Application using React and
-                Firebase Database (NoSQL) into this Personal Website <br />
-                • React and Redux was used to manage state on the clients side{' '}
-                <br />
-                • Firebase Database (NoSQL) was used in creating a Server to allow
-                for communication between Clients <br />
-                • Firebase was used to host the Web Application
-              </p>
-            </div>
-            <div className="resume-date md:text-right mt-2 md:mt-0">
-              <span className="text-primary">February 2019 - Present</span>
-            </div>
-          </div>
-
-          <div className="resume-item flex flex-col md:flex-row mb-12">
-            <div className="resume-content mr-auto">
-              <h3 className="mb-0">Node.JS Twitter Bot</h3>
-              <div className="subheading mb-4">Personal Node.JS Project</div>
-              <p>
-                • Developed using Node.JS, NewsAPI and Twitter API <br />
-                • The Twitter API was used to check the Bot&apos;s connection
-                status, search for tweets as well as post tweets relating to tech{' '}
-                <br />
-                • The NewsAPI was used to search for news outlets related to the
-                Tech category, selecting news reports and formatting the JSON to be
-                usable with the Twitter API <br />
-                • Heroku was used to host the Bot
-              </p>
-            </div>
-            <div className="resume-date md:text-right mt-2 md:mt-0">
-              <span className="text-primary">March 2019 - Present</span>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -189,7 +86,7 @@ export default function MainPage() {
               <div className="subheading mb-4">Minor in, Geography</div>
             </div>
             <div className="resume-date md:text-right mt-2 md:mt-0">
-              <span className="text-primary">September 2014 - October 2018</span>
+             {/* <span className="text-primary">September 2014 - October 2018</span> */}
               <br />
               <Image
                 className="max-w-full mx-auto mt-2"
@@ -216,7 +113,7 @@ export default function MainPage() {
               <div className="subheading mb-4">CompTIA Network+ CE</div>
             </div>
             <div className="resume-date md:text-right mt-2 md:mt-0">
-              <span className="text-primary">March 2021 - March 2024</span>
+              <span className="text-primary">March 2021 - March 2028</span>
               <br />
               <Image
                 className="max-w-full mx-auto mt-2"
@@ -238,41 +135,69 @@ export default function MainPage() {
         <div className="my-auto">
           <h2 className="mb-12">Work Experience</h2>
 
+
+
+          {/* Quadient */}
+          <div className="resume-item flex flex-col md:flex-row mb-12">
+            <div className="resume-content mr-auto">
+              <h3 className="mb-0">Quadient / YayPay – Senior L3 Technical Analyst Team Lead</h3>
+              <div className="subheading mb-4">
+                150 Steelcase Rd W, Markham, ON L3R 3J9
+              </div>
+              <p>
+                • Serve as primary escalation point for enterprise accounts, 
+                ensuring retention and satisfaction across ERP and SaaS integrations (NetSuite, Intacct, Salesforce, API/FTP/SFTP, IMAP/SMTP). <br />
+                • Acted as strategic advisor to enterprise clients, guiding onboarding, adoption, maturity, and expansion, 
+                aligning platform features with business outcomes. <br />
+                • Monitored customer health and engagement metrics (CSAT, SLA adherence, churn risk), 
+                proactively mitigate risks and identify expansion opportunities maintaining a 94.44% competency performance score across Q3 2025. <br />
+                • Deliver customer enablement sessions, success workshops, and workflow optimization training to advance adoption and engagement. <br />
+                • Led team training sessions and workshops for internal teams with success playbooks, technical guidance, and adoption strategies.
+                <br />
+                • Collaborate with cross-functional teams (Engineering, Product, Support) to resolve issues, advocate customer priorities, and influence product roadmap. <br />
+                • Prepare and deliver customer-facing resources (Confluence guides, success templates, playbooks) to scale enablement across accounts. <br />
+                • Lead daily team standups, oversee hotfixes/updates, and manage accounts/tickets via Salesforce while ensuring seamless integrations. <br />
+               
+              </p>
+            </div>
+            <div className="resume-date md:text-right mt-2 md:mt-0">
+              <span className="text-primary">August 2021 - Present</span>
+              <div className="mt-3">
+                <Image
+                  className="max-w-full mx-auto"
+                  style={{ width: '300px' }}
+                  src="/img/quadient-logo.png"
+                  alt="Quadient"
+                  width={300}
+                  height={120}
+                />
+              </div>
+            </div>
+          </div>
+
+
           {/* Rogers */}
           <div className="resume-item flex flex-col md:flex-row mb-12">
             <div className="resume-content mr-auto">
-              <h3 className="mb-0">Rogers – Tier 2 Technical Escalation Management</h3>
+              <h3 className="mb-0">Rogers – Technical Support Team Manager</h3>
               <div className="subheading mb-4">
                 Rogers 855 York Mills Rd, North York, ON M3B 1Z1
               </div>
               <p>
-                • Floor walk and provide face to face support to Tier 1 Agents in
-                my Free Time <br />
-                • Collaborate with multiple Departments (TTM, OSTC, OOP, OFE,
-                Dispatch, Call Creations) to resolve Technical Issues related to
-                Rogers Systems and Products (Computer Networking SOHO and external
-                infrastructure) <br />
-                • Activate / Deactivate the IVR as well as provide voice recordings
-                for the Queue <br />
-                • Handle and Resolve Technical Management Escalated Cases regarding
-                all Rogers Services <br />
-                • Constantly engaged in email trails to resolve High Priority cases{' '}
+                • Developed strong relationships with enterprise and VIP clients, acting as their main escalation point of contact to ensure retention and customer success. <br />
+                • Collaborated cross-functionally to resolve complex network challenges, preventing churn through proactive engagement. <br />
+                • Delivered executive-level support for Office of the President clients, ensuring long-term satisfaction and loyalty. <br />
+                • Led a team of technical analysts, coaching them on customer-first strategies and scalable success practices. <br />
+                • Monitored engagement and proactively addressed issues, resulting in improved resolution times and increased client trust.
                 <br />
-                • Provide Managerial Support for Tier 1 Front-line Technical Support
-                agents and provide solutions for other internal departments <br />
-                • Engaged in OOP offline work and assisting Tier 2 Primes when help
-                is needed <br />
-                • Constant monitoring in Genesis and the Advisor to manage Queue
-                Levels <br />
-                • Trained and Facilitated a New Hire Class of 24 individuals on the
-                Technical Support and Troubleshooting practices at Rogers as well as
-                answered any questions and concerns they may have <br />
-                • Joined the Co-Pilot Program where I trained 2 new hires for the
-                Tier 1 Technical role with the High-Speed Internet Department
+                • Provided opportunities for Career development when coaching 1 on 1 <br />
+                • Managed Service Level each Technical line of Business <br />
+                • Oversaw real time Analytics, Reporting <br />
+                
               </p>
             </div>
             <div className="resume-date md:text-right mt-2 md:mt-0">
-              <span className="text-primary">April 2019 - Present</span>
+              <span className="text-primary">April 2019 - August 2021</span>
               <div className="mt-3">
                 <Image
                   className="max-w-full mx-auto"
@@ -431,17 +356,12 @@ export default function MainPage() {
           <h2 className="mb-12">Skills</h2>
           <div className="subheading mb-4">Languages &amp; Technologies</div>
           <ul className="dev-icons mb-6">
-            <li className="list-inline-item"><i className="fab fa-java" /></li>
-            <li className="list-inline-item"><i className="fab">C</i></li>
-            <li className="list-inline-item"><i className="fab fa-react" /></li>
-            <li className="list-inline-item"><i className="fab fa-angular" /></li>
-            <li className="list-inline-item"><i className="fab fa-html5" /></li>
-            <li className="list-inline-item"><i className="fab fa-css3-alt" /></li>
-            <li className="list-inline-item"><i className="fab fa-sass" /></li>
-            <li className="list-inline-item"><i className="fab">Bootstrap</i></li>
-            <li className="list-inline-item"><i className="fab fa-js-square" /></li>
+            <li className="list-inline-item"><i className="fab fa-salesforce" /></li>
+            <li className="list-inline-item"><i className="fab">NetSuite</i></li>
+            <li className="list-inline-item"><i className="fab">Sage Intacct</i></li>
+            <li className="list-inline-item"><i className="fab"/>API</li>
             <li className="list-inline-item"><i className="fab">JSON</i></li>
-            <li className="list-inline-item"><i className="fab fa-php" /></li>
+            <li className="list-inline-item"><i className="fab"/>CSV</li>
             <li className="list-inline-item"><i className="fab">MySQL</i></li>
             <li className="list-inline-item"><i className="fab fa-python" /></li>
             <li className="list-inline-item"><i className="fab">UNIX</i></li>
@@ -454,9 +374,14 @@ export default function MainPage() {
           <ul className="list-none pl-6 mb-0 space-y-2">
             {[
               'Strong problem solving, analytical & mathematical skills',
-              'Knowledge of UML (Unified Modeling Language) diagrams',
+              'Customer Success & Relationship Management',
               'Knowledge of wide range of software & hardware technologies',
-              'Knowledge of the software development life cycle',
+              'Strategic Success Planning',
+              'Community Engagement & Enablement',
+              'Cross-Functional Collaboration',
+              'Technical Adaptability (SaaS, APIs, ERP)',
+              'Leadership & Team Coaching',
+              'Communication & Presentation',
               'Ability to handle people, problems or situations with honesty, integrity, & personal ethics',
               'Ability to assist associates & work in a fast-paced environment',
               'Ability to work a flexible job schedule',
@@ -477,10 +402,10 @@ export default function MainPage() {
         <div className="my-auto">
           <h2 className="mb-12">Interests</h2>
           <p className="text-lg font-normal">
-            Aside from Software Development and Web Design, I enjoy learning about
-            new mobile and computer technology. In addition, I enjoy photography,
-            photo-editing and video-editing. Other than technology, I enjoy learning
-            about social and physical geography as well as watching anime and
+            Aside from IT Customer Success and Team Management, I enjoy learning about
+            new mobile and computer technology. In addition, I enjoy  building servers, hosting services,
+            photography, and gaming. Other than technology, I enjoy learning
+            about socio-economic and physical geography as well as watching anime and
             science fiction, with the occasional nature and space documentaries.
           </p>
         </div>
